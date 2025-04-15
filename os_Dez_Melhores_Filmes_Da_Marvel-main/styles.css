@@ -1,0 +1,72 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 50px;
+}
+
+header {
+    border-bottom: solid 2px rgb(188, 91, 218);
+    margin: 20px;
+    font-size: 50px;
+    color: rgb(188, 91, 218);
+    text-align: center;
+}
+
+section {
+    background-color: rgb(188, 91, 218);
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div {
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(56, 4, 71);
+    background-color: rgb(188, 91, 218);
+    border: solid 10px rgb(56, 4, 71);
+    padding: 20px;
+    margin: 20px;
+}
+
+.titulo{
+    background-color: rgb(56, 4, 71);
+}
+
+.video{
+    background-color: rgb(56, 4, 71);
+    padding: 30px;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+}
+
+.carrossel{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    align-items: center;
+}
+
+img{
+    height: 250px;
+    opacity: 0.7;
+}
+
+img:hover{
+    opacity: 1;
+    border: 3px solid white;
+}
+
+h2{
+    text-align: center;
+}

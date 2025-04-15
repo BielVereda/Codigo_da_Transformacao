@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de DOM</title>
+</head>
+<body>
+
+    <!-- Parágrafo com ID único -->
+    <p id="meuParagrafo">Este é o texto original do parágrafo.</p>
+
+    <!-- Botão para chamar a função JavaScript -->
+    <button onclick="alterarTexto()">Clique para alterar o texto</button>
+
+    <!-- JavaScript para manipulação de DOM -->
+    <script>
+        function alterarTexto() {
+            // Encontrar o parágrafo pelo ID e alterar o texto
+            document.getElementById("meuParagrafo").innerText = "O texto foi alterado com sucesso!";
+        }
+    </script>
+
+</body>
+</html>
